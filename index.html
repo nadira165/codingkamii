@@ -1,220 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UT-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kelompok 8 Praktikum Coding Pertemuan 1</title>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kelompok 5 - Web Okta</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Kelompok 5</h1>
+        <p>Tim kreatif yang berdedikasi dalam pengembangan web dan teknologi.</p>
+    </header>
 
-        <!-- box icons-->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Menu Navigasi -->
+    <nav class="main-menu">
+        <a href="index.html">Beranda</a>
+        <a href="aktivitas.php">Aktivitas</a>
+        <a href="hobi.php">Hobi</a>
+        <a href="kontak.php">Contact</a>
+        <a href="login.php">Login</a>
+    </nav>
 
-        <!-- custom css-->
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <!-- Konten Utama -->
+    <div class="container">
+        <!-- Kolom Kiri -->
+        <div class="left-column">
 
-    <body>
-
-        <!-- header design-->
-         <header class="header">
-                <a href="#contact"></a>
-                <a href="#" class="logo">Praktikum</a>
-                <i class='bx bx-menu' id="menu-icon"></i>
-
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Activity</a>
-                <a href="#portofolio">Hobby</a>
-                <a href="#contact">Contact</a>
-            </nav>
-         </header>
-         <!--home section design-->
-         <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, It's Us!!</h3>
-                <h1>Kelompok 5</h1>
-                <h3>And We are a <span class="multiple-text">Students</span></h3>
-                <p>This Website Contains Our Task About Coding</p>
-                <div class="social-media">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-twitter' ></i></a>
-                    <a href="#"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                </div>
-                <a href="#" class="btn">Download CV</a>
-            </div>
-            <div class="home-img">
-                <img src="images/blue.jpg" alt="gambar 1">
-            </div>
-         </section>
-         <!--about section design-->
-         <section class="about" id="about">
-            <div class="about-img">
-                <img src="images/triopink.jpg" alt="gambar 2">
-            </div>
-
-            <div class="about-content">
-                <h2 class="heading">About <span>Us</span></h2>
-                <h3>A Students</h3>
-                <p>
-                    This is about us Hai semua! Kami ini anak-anak Matematika Universitas Bengkulu, semester 2.
-                    Masih muda, masih semangat, dan... masih sering dihitung sama tugas. 😅
-                    
-                    Kami jago ngitung, tapi jangan tanya ngitung perasaan—itu belum masuk kurikulum.
-                    Kalau ada yang butuh integral, limit, atau sekedar teman ngopi sambil ngerjain soal, kami siap!
-                    Karena bagi kami, hidup itu kayak persamaan—kadang ruwet, tapi selalu ada solusi! 😉
-                    
-                    Salam dari kami,
-                    Pejuang X dan Y, pencari nilai A sejati. ✨📚
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-         </section>
-
-
-         <!--services section design -->
-         <section class="Services" id="services">
-            <h2 class="heading"> Our <span>activity</span></h2>
-            <div class="services-container">
-
-            <div class="services-box">
-                <img src="images/html.jpg" alt="gambar 1"> 
-                <h3>html</h3>
-                <p>Apa itu HTML?
-                      HTML itu ibarat tulang punggungnya sebuah website.
-                    Kalau website itu manusia, maka HTML adalah kerangkanya.
-                    Tanpa HTML? Ya web-nya ambyar, kayak hati yang ditinggal pas lagi sayang-sayangnya.
-                    HTML itu gak jalan sendiri
-                    Dia butuh temen:
-                        CSS buat dandanan (biar website gak tampil polos kayak bangun tidur).
-                        JavaScript buat kasih nyawa (biar bisa interaktif, kayak kamu nge-chat gebetan terus dibales </p>
-                <a href="#" class="btn">read more</a>
-            </div>
-                <div class="services-box">
-                    <img src="images/js.jpg" alt="gambar 1">               
-                    <h3>script.js</h3>
-                <p>Apa itu JavaScript?
-                    JavaScript itu kayak anak paling aktif di kelas.
-                    HTML dan CSS udah bikin web kelihatan cantik dan rapi,
-                    lalu datang JavaScript kayak:
-                        “Woy, yang bisa gerak-gerak siapa? Yang bisa klik-klik siapa? Gue lah!</p>
-                <a href="#" class="btn">read more</a>
-                </div>
-                <div class="services-box">
-                    <img src="images/css.jpg" alt="gambar 1">        
-                            <h3>css</h3>
-                <p>CSS itu seniman dalam dunia web.
-                    Tanpanya? Web kamu garing.
-                    Dengannya? Web kamu bisa glowing 
-                    kayak pakai filter TikTok!</p>
-                <a href="#" class="btn">read more</a>
-                </div>           
-            </div>
-
-         </section>
-
-
-         <!-- Portofolio section design -->
-          <section class="portofolio" id="portofolio">
-            <h2 class="heading">our <span>Hobby</span></h2>
-            <div class="portofolio-container">
-                <div class="portofolio-box">
-                    <img src="images/nadira.jpg" alt="gambar 3">
-                    <div class="portofolio-layer">
-                        <h4>Anyeong Haseo</h4>
-                        <p>안녕하세요~! ✨
-                            Nama aku Nadira Delanta, tapi panggil aja Dira, biar kita cepet akrab kayak oppa-oppa di drakor 
-                            Aku suka banget nonton drakor – bukan cuma karena ceritanya, tapi juga karena cowok-cowoknya yang bikin hati meleleh kayak keju mozzarella. 
-                            Oh iya, pacarku orang Korea loh...
-                            Tapi Korea mana?
-                            Korea-korea-an. Wkwkwk
-                            (Nggak ding, serius kok... kadang hahaha)
-                            
-                            Intinya, kalau kamu juga suka drakor, kita pasti cocok.
-                            Kalau nggak suka? Tenang, aku bisa ngajarin kamu cara bucin yang benar.</p>
-                        <a href="#"><i class='bx bx-link'></i></a>
+            <!-- Profil Anggota -->
+            <section class="biodata">
+                <div class="biodata-header">Anggota Kelompok 5</div>
+                
+                <div class="biodata-content">
+                    <img src="images/okta.jpg" alt="Foto Okta" class="Gambarbiodataindex">
+                    <div class="profil-info">
+                        <p><strong>Fitria Oktarina</strong></p>
+                        <p>Bengkulu, Indonesia</p>
+                        <p>MATEMATIKA</p>
                     </div>
+                </div>
+
+                <div class="biodata-content">
+                    <img src="images/dira.jpg" alt="Foto Andi" class="Gambarbiodataindex">
+                    <div class="profil-info">
+                        <p><strong>Nadira Delanta</strong></p>
+                        <p>Bengkulu, Indonesia</p>
+                        <p>MATEMATIKA</p>
                     </div>
+                </div>
 
-                    <div class="portofolio-box">
-                        <img src="images/okta.jpg" alt="gambar 3">
-                        <div class="portofolio-layer">
-                            <h4>hallo sadayana </h4>
-                            <p>tong hilap nyaa
-                                Aku Fitria Oktarina, panggil aja Okta biar nggak capek ngetik.
-                                Asli Bandung, udaranya adem—kayak sikap aku ke kamu 
-                                Hobi aku?
-                                Nari! Dari yang tradisional sampe joget TikTok, semua bisa aku hayati~
-                                Kaki bisa capek, tapi semangat nari gak pernah kendor..                                
-                                Katanya sih… aku bisa bikin suasana rame cuma modal gerak tangan dan senyuman                          
-                                Intinya, aku anak Bandung yang bisa bikin hidup kamu lebih ceria—asal jangan suruh nyanyi, takutnya ujan beneran </p>
-                            <a href="#"><i class='bx bx-link'></i></a>
-                        </div>
-                        </div>
+                <div class="biodata-content">
+                    <img src="images/habib.jpg" alt="Foto Sari" class="Gambarbiodataindex">
+                    <div class="profil-info">
+                        <p><strong>M. Habib Rizal</strong></p>
+                        <p>Bengkulu, Indonesia</p>
+                        <p>MATEMATIKA</p>
+                    </div>
+                </div>
 
-                        <div class="portofolio-box">
-                            <img src="images/habib.jpg" alt="gambar 3">
-                            <div class="portofolio-layer">
-                                <h4>haiiii </h4>
-                                <p>Yo wassap semuaa~ 
-                                    Nama gue Muhammad Habib Rizal, tapi cukup panggil Habib aja, biar gak kayak lagi ngisi absen di kelas 
-                                    
-                                    Hobi gue?
-                                    Nongkrong.
-                                    Tempat favorit: warung kopi, pinggir jalan, atau di hati kamu..
-                                    
-                                    Buat gue, nongkrong itu seni.
-                                    Kadang ngobrolin masa depan, kadang cuma debat “mending Indomie rebus atau goreng?” 
-                                    
-                                    Tapi yang penting:
-                                    Nongkrong itu bukan buang waktu, tapi quality time bareng temen—dan kadang nyari colokan juga. 
-                                    
-                                    Jadi kalau kamu ngeliat orang duduk di warkop sambil ngelamun, kemungkinan besar… itu gue, nungguin WiFi nyala.</p>
-                                <a href="#"><i class='bx bx-link'></i></a>
-                            </div>
-                            </div>
-                </div> 
             </section>
 
-            <!-- contact section sesign -->
-            <section class="contact" id="contact">
-              <h2 class="heading">Talk  <span>to Us</span></h2>
-              <form action="#">
-                  <div class="input-box">
-                      <input type="text" placeholder="Nama Lengkap">
-                      <input type="text" placeholder="Email Addreas">
-                  </div>
-  
-                  <div class="input-box">
-                      <input type="number" placeholder="Nomor Telepon">
-                      <input type="text" placeholder="Nama Email">
-                  </div>
-                  <textarea name="" id="" cols="30" rows="10" placeholder="Pesanmu"></textarea>
-                  <input type="submit" value="Send me" class="btn">
-              </form>
-  
-  
+            <section class="quick-links">
+                <h3>Link Cepat</h3>
+                <ul>
+                    <li><a href="#">Profil Kelompok</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
             </section>
-  
+        </div>
 
-          <!-- bagian footer -->
-           <footer class="footer">
-            <div class="footer-text">
-                <p>Copyrigt &copy; 2025 by kelompok kece.</p>
-            </div>
+        <!-- Kolom Kanan -->
+        <div class="right-column">
+            <section>
+                <h3>Hobi dan Minat</h3>
+                <p>Kelompok 5 memiliki beragam minat mulai dari pengembangan web, desain grafis, pemrograman mobile, hingga manajemen konten. Kami percaya bahwa kombinasi keahlian ini membuat tim kami solid dan produktif.</p>
+            </section>
 
-            <div class="footer-icontop">
-                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            <section>
+                <h3>Blog Kelompok</h3>
+                <ul>
+                    <li>Belajar Coding Bersama</li>
+                    <li>Tips Produktivitas dalam Tim</li>
+                    <li>Cerita Inspiratif dari Proyek Kami</li>
+                </ul>
+            </section>
 
-            </div>
-           </footer>
-         <script src="js/script.js"></script>
-         <!-- script scroll  -->
-         <script src="https://unpkg.com/scrollreveal"></script>
-           <!-- github -->
-         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <section>
+                <h3>Aktivitas Kelompok</h3>
+                <p>Setiap minggu kami mengadakan pertemuan untuk membahas progres proyek, berbagi ilmu, serta mengerjakan tugas bersama. Kegiatan ini membuat kekompakan dan kualitas kerja kami semakin meningkat.</p>
+            </section>
+        </div>
+    </div>
 
-         
-    </body>
-</html> 
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <p>&copy; 2025 Kelompok 5 - Web Okta</p>
+        </div>
+        <div class="footer-right">
+            <p>Disclaimer: Konten ini dibuat untuk keperluan belajar dan pengembangan web.</p>
+        </div>
+    </footer>
+</body>
+</html>
