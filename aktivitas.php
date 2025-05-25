@@ -39,7 +39,7 @@
             </div>
 
             <div class="services-box">
-                <img src="images/js.jpg" alt="gambar javascript">               
+                <img src="js.jpg" alt="gambar javascript">               
                 <h3>JavaScript</h3>
                 <p>
                     Apa itu JavaScript? JavaScript itu kayak anak paling aktif di kelas.
@@ -51,7 +51,7 @@
             </div>
 
             <div class="services-box">
-                <img src="images/css.jpg" alt="gambar css">        
+                <img src="css.jpg" alt="gambar css">        
                 <h3>CSS</h3>
                 <p>
                     CSS itu seniman dalam dunia web.
