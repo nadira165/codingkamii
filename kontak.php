@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Kontak Kelompok 5</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <!-- Header -->
