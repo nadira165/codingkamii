@@ -27,7 +27,7 @@
         <div class="portofolio-container">
             <!-- Nadira -->
             <div class="portofolio-box">
-                <img src="images/dira.jpg" alt="Foto Nadira Delanta">
+                <img src="dira.jpg" alt="Foto Nadira Delanta">
                 <div class="portofolio-layer">
                     <h4>Anyeong Haseo</h4>
                     <p>
@@ -44,7 +44,7 @@
 
             <!-- Okta -->
             <div class="portofolio-box">
-                <img src="images/okta.jpg" alt="Foto Fitria Oktarina">
+                <img src="okta.jpg" alt="Foto Fitria Oktarina">
                 <div class="portofolio-layer">
                     <h4>Hallo Sadayana</h4>
                     <p>
@@ -60,7 +60,7 @@
 
             <!-- Habib -->
             <div class="portofolio-box">
-                <img src="images/habib.jpg" alt="Foto Muhammad Habib Rizal">
+                <img src="habib.jpg" alt="Foto Muhammad Habib Rizal">
                 <div class="portofolio-layer">
                     <h4>Haiiii</h4>
                     <p>

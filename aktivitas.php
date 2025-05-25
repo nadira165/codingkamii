@@ -25,7 +25,7 @@
     <main class="container">
         <div class="services-section">
             <div class="services-box">
-                <img src="images/LLLL.jpg" alt="gambar html"> 
+                <img src="LLLL.jpg" alt="gambar html"> 
                 <h3>HTML</h3>
                 <p>
                     Apa itu HTML? HTML itu ibarat tulang punggungnya sebuah website.

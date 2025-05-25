@@ -26,21 +26,21 @@
         <div class="services-section">
 
             <div class="services-box">
-                <img src="images/phone.png" alt="Telepon" />
+                <img src="phone.png" alt="Telepon" />
                 <h3>Telepon</h3>
                 <p>0812-3456-7890</p>
                 <a href="tel:081234567890" class="btn">Call Now</a>
             </div>
 
             <div class="services-box">
-                <img src="images/email.png" alt="Email" />
+                <img src="email.png" alt="Email" />
                 <h3>Email</h3>
                 <p>kelompok5@webokta.com</p>
                 <a href="mailto:kelompok5@webokta.com" class="btn">Send Email</a>
             </div>
 
             <div class="services-box">
-                <img src="images/location.png" alt="Alamat" />
+                <img src="location.png" alt="Alamat" />
                 <h3>Alamat</h3>
                 <p>Jl. Merdeka No. 123, Bandung, Indonesia</p>
                 <a href="#" class="btn">View Map</a>
